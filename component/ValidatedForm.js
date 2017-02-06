@@ -178,5 +178,8 @@ export default function createValidatedForm (Component, fields, validation, getD
       fields: form,
       isValidating: form ? form.isValidating : false
     }
-  }, null, null, { withRef: true })(ValidatedForm)
+  }, null, null, {
+    withRef: true,
+    pure: false
+  })(ValidatedForm)
 }
