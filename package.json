@@ -1,0 +1,37 @@
+{
+  "name": "redux-lightweight-validation",
+  "version": "0.0.1",
+  "description": "Form Validation with Redux and a single Higher Order Component",
+  "main": "dist/validation.js",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "react": "^15.4.2",
+    "react-redux": "^5.0.2",
+    "redux": "^3.6.0",
+    "webpack": "^2.2.1",
+    "webpack-merge": "^2.6.1",
+    "webpack-uglify-js-plugin": "^1.1.9"
+  },
+  "peerDependencies": {
+    "react": "^15.0.0",
+    "redux": "^3.6.0",
+    "react-redux": "^5.0.2"
+  },
+  "scripts": {
+    "test": "npm run test",
+    "compile": "webpack --config webpack.production.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MentalAtom/ReduxValidation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MentalAtom/ReduxValidation/issues"
+  },
+  "homepage": "https://github.com/MentalAtom/ReduxValidation#readme"
+}
