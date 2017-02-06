@@ -1,0 +1,4 @@
+actions/
+component/
+reducer/
+webpack.*.js
