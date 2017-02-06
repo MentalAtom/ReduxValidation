@@ -1,6 +1,6 @@
 {
   "name": "redux-lightweight-validation",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Form Validation with Redux and a single Higher Order Component",
   "main": "dist/validation.js",
   "devDependencies": {
